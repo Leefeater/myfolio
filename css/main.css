@@ -1,0 +1,204 @@
+body {
+	padding-top:50px;
+	font-family:'Open Sans', sans-serif;
+	margin:0;
+}
+section {
+	padding:50px 0;
+}
+/*
+Navigation
+*/
+nav {
+
+	background-color:#02908b;
+	color:#fff;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:65px;
+	width:100%;
+}
+nav > a {
+	display:inline-block;
+	font-family:'Open Sans' sans-serif;
+	text-decoration:none;
+	color:#fff;
+	font-size:26px;
+	font-weight:700;
+	text-align:left;
+	margin:12px;
+}
+nav > a > span {
+	font-family:'Open Sans', sans-serif;
+	color:#cfc91d;
+	text-align:left;
+}
+nav ul {
+	float:right;
+}
+nav ul li {
+	display:inline-block;
+	margin-top:8px;
+}
+nav > ul > li > a {
+	text-decoration:none;
+	color:#fff;
+	padding-right:35px;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+	color: #cfc91d;
+}
+/*
+Index section
+*/
+#index {
+	background: #666 url('img/headerbg.png') no-repeat;
+	height:498px;
+	text-align:center;
+	color:#fff;
+	font-family:'Open Sans' sans-serif;
+}
+.button {
+	background-color:#ecec0c;
+	text-decoration:none;
+	color:#222;
+	padding:10px 30px;
+	font-family:'Open Sans' sans-serif;
+	font-weight:700;
+	font-size:15px;
+	cursor:pointer;
+}
+.button:hover {
+	background-color:#222;
+	color:#ecec0c;
+}
+#index h1 {
+	margin:0;
+	font-size:4em;
+	letter-spacing:20px;
+}
+#index h2 {
+	margin-top:50px;
+	margin-bottom:0;
+	font-size:2em;
+}
+#index h5 {
+	margin:0;
+	font-size:1em;
+}
+#index img {
+	margin-top:50px;
+}
+/*
+about me section
+*/
+#about {
+	width:75%;
+	margin:10px auto;
+	text-align:center;
+	color:#02908b;
+}
+.box {
+	display:inline-block;
+	width:24%;
+	border-right:1px solid black;
+}
+.noline {
+	border-right:0;
+}
+#about h1 {
+	font-size:48px;
+	font-weight:700;
+}
+#about p {
+	font-size:1em;
+	line-height:3;
+}
+/*
+SERVICES SECTION
+*/
+#services {
+	background-image:url('img/service.png');
+	color:#02908b;
+}
+.container {
+	width:50%;
+}
+.container .box {
+	width:48%;
+	margin-top:1px;
+	border:none;
+}
+#services h1 {
+	font-size:48px;
+	font-weight:700;
+}
+#services p {
+	font-size:1em;
+	line-height:3;
+}
+/*
+My Work Section
+*/
+#work {
+	color:#02908b;
+	text-align:center;
+}
+#work h1 {
+	font-size:48px;
+	font-weight:700;
+}
+#work p {
+	font-size:1em;
+	line-height:3;
+}
+#work .left {
+	text-align:left;
+}
+/*
+CONTACT ME SECTION
+*/
+#contact {
+	text-align:center;
+	color:#02908b;
+	margin-bottom:-98px;
+}
+#contact .contactform {
+	background-color:#333;
+	height:480px;
+}
+#contact h1 {
+	font-size:48px;
+	font-weight:700;
+}
+#contact p {
+	font-size:1em;
+	line-height:3;
+}
+lable {
+	color:#fff;
+}
+input {
+	background-color:#333;
+	border:none;
+	border-bottom:1px solid #fff;
+	width:700px;
+}
+textarea {
+	background-color:#333;
+	border:none;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	width:700px;
+}
+footer {
+	margin:0;
+	background-color:#333;
+	clear:both;
+	text-align:center;
+	color:#fff;
+	height:98px;
+}
